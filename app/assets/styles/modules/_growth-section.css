@@ -1,0 +1,35 @@
+.growth-section {
+    &__title {
+        text-align: center;
+    }
+
+    &__about {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        div {
+            flex: auto;
+            @mixin atMedium {
+                flex: 1;
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    &__strength {
+        color: $white;
+
+        .fa-li {
+            color: $gold;
+        }
+
+        li {
+            font-family: 'Mooli', sans-serif;
+            font-size: 1.1rem;
+            @mixin atMedium {
+                font-size: 1.2rem;
+            }            
+            padding: 10px;
+        }
+    }
+}

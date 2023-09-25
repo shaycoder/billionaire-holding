@@ -1,0 +1,15 @@
+@import "normalize.css";
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_global";
+@import "modules/_headings";
+@import "modules/_header";
+@import "modules/_sub-header";
+@import "modules/_wrapper";
+@import "modules/_growth-section";
+@import "modules/_portfolio-section";
+@import "modules/_mvs";
+@import "modules/_contact";
+@import "modules/_growth-plan";
+@import "modules/_footer";
+@import 'aos/dist/aos.css';
