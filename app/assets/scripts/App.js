@@ -5,7 +5,7 @@ import AOS from 'aos';
 let mobileMenu = new MobileMenu();
 
 AOS.init({
-    duration: 1200
+    duration: 3000
    });
 
 if(module.hot) {
