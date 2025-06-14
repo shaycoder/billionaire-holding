@@ -13,23 +13,28 @@
                 flex: 1;
                 margin-right: 1rem;
             }
+            h1 {
+                text-align: left;
+                @mixin forSmall {
+                    margin-top: 1.8rem;
+                }
+            }
         }
     }
 
     &__strength {
         color: $white;
+    }
+}
 
-        .fa-li {
-            color: $gold;
+.global-section {
+    div {
+        &:nth-child(odd) {
+            background: url('./assets/images/logo-bg.jpg') no-repeat center;
+            background-size: contain;
         }
-
-        li {
-            font-family: 'Mooli', sans-serif;
-            font-size: 1.1rem;
-            @mixin atMedium {
-                font-size: 1.2rem;
-            }            
-            padding: 10px;
+        @mixin atMedium {
+            padding: 1.5rem 3rem 0 3rem;
         }
     }
 }

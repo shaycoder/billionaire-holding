@@ -26,9 +26,24 @@ p {
     color: $white;
 
     @mixin atMedium {
-        font-size: 1.2rem;
+        /*font-size: 1.2rem;*/
+        font-size: 1rem;
         font-weight: 100;
     }
+}
+
+.fa-li {
+    color: $gold;
+}
+
+li {
+    color: $white;
+    font-family: 'Mooli', sans-serif;
+    @mixin atMedium {
+        /*font-size: 1.2rem;*/
+        font-size: 1rem;
+    }            
+    padding: 10px;
 }
 
 .fa-solid, .fa-regular {

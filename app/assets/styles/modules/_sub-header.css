@@ -16,7 +16,7 @@
 
     &--is-visible {
         background: url('./assets/images/logo-bg.jpg') no-repeat center;
-        background-size: cover;
+        background-size: contain;
     }
 
     &__logo {
@@ -67,8 +67,8 @@
 
         a {
             text-decoration: none;
-            font-size: 1.35rem;
-            color: $gold;
+            font-size: 1.2rem;
+            color: $lightgold;
         }
     }
 
